@@ -24,8 +24,6 @@
   @include media(393px) {
     padding: none;
     margin-left: auto;
-  }
-  @include media(393px) {
     margin-right: auto;
   }
 }
@@ -123,6 +121,8 @@
   background: #333;
   transform: translate(-100%);
   display: none;
+  height: 100vh;
+  width: 100%;
 }
 .hidden-top {
   display: flex;
